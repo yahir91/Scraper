@@ -1,4 +1,7 @@
 require_relative '../lib/article_processor.rb'
+require 'byebug'
+require 'open-uri'
+require 'nokogiri'
 
 describe ArticlesProcessor do
   context 'url_change' do
