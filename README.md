@@ -1,4 +1,5 @@
 # Scraper
+
 In this project, I build a Scraper that gets information of medical articles. It retrieves the title, the authors and the link of each article form the web page [Scielo](https://scielo.org/). You can choose from 45 articles which want you want to look.
 
 ## Built With
@@ -17,7 +18,11 @@ In this project, I build a Scraper that gets information of medical articles. It
 - Run `bundle install` in the command line.
 - To run the file enter `cd bin` to go to the bin folder, then type `ruby main.rb`.
 - Type the articles that you want to search.
-- Then select from an array of 45 options which articles information you want to see.
+  ![Search-Engine] (screenshots/Screenshot from 2020-07-16 13-18-54.png)
+- Then select from a selection of 45 titles which articles information you want to see.
+  ![Articles-Options] (screenshots/Screenshot from 2020-07-16 13-19-49.png)
+- You can see the article information and the link to go to that article.
+  ![Article-infomation] (screenshots/Screenshot from 2020-07-16 13-20-10.png)
 
 ## Run tests
 

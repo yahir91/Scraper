@@ -40,7 +40,8 @@ describe ArticlesProcessor do
     it 'return the title of 34th article' do
       article = ArticlesProcessor.new('heart')
       article.articles_info
-      expected = 'Detoxification effects of long-chain versus a mixture of medium- and long-chain triglyceride-based fat emulsion on propafenone poisoning'
+      short = 'Detoxification effects of long-chain versus a mixture of medium-'
+      expected = "#{short} and long-chain triglyceride-based fat emulsion on propafenone poisoning"
       expect(article.article_information[33][:title=]).to eq expected
     end
   end

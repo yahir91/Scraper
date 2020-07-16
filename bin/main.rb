@@ -12,8 +12,8 @@ articles.articles_info
 array = []
 count = 1
 articles.article_information.each do |x|
-    array << "#{count} #{x[:title=]}"
-    count += 1
+  array << "#{count} #{x[:title=]}"
+  count += 1
 end
 
 puts array
