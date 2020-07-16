@@ -3,7 +3,7 @@ require 'open-uri'
 require 'nokogiri'
 
 class ArticlesProcessor
-  attr_accessor :article_information, :page, :parsed_page
+  attr_reader :article_information, :page, :parsed_page, :from
   def initialize(search = '')
     @page = 1
     @short = 'https://search.scielo.org/?q=sangre&lang=en&count=15&from='
