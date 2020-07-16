@@ -1,3 +1,4 @@
+require 'byebug'
 require 'open-uri'
 require 'nokogiri'
 

@@ -1,5 +1,3 @@
-require 'open-uri'
-require 'nokogiri'
 require_relative '../lib/article_processor.rb'
 
 describe ArticlesProcessor do
