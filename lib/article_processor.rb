@@ -41,7 +41,6 @@ class ArticlesProcessor
       @parsed_page = Nokogiri::HTML(unparsed_page)
       articles_hash(@parsed_page)
       url_change
-      puts 'chill'
     end
     @article_information
   end
