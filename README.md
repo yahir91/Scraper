@@ -15,7 +15,7 @@ In this project, I build a Scraper that gets information of medical articles. It
 - Open your command line and type `git clone git@github.com:yahir91/Scraper.git`
 - Go to the new repository, inside the command line type `cd scraper` to go to the repository folder.
 - Run `bundle install` in the command line.
-- To run the file enter `cd bin` to go to the bin folder, then typer `ruby main.rb`.
+- To run the file enter `cd bin` to go to the bin folder, then type `ruby main.rb`.
 - Type the articles that you want to search.
 - Then select from an array of 45 options which articles information you want to see.
 

@@ -45,7 +45,7 @@ class ArticlesProcessor
     end
     @article_information
   end
-
+  
   def check_article(article_index)
     until article_index.positive? && article_index <= 45
       puts 'select a number between 1 and 45'
