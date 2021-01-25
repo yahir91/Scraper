@@ -18,11 +18,11 @@ In this project, I build a Scraper that gets information of medical articles. It
 - Run `bundle install` in the command line.
 - To run the file enter `cd bin` to go to the bin folder, then type `ruby main.rb`.
 - Type the articles that you want to search.
-  ![Search-Engine](screenshots/Screenshot from 2020-07-16 13-18-54.png)
+  ![Search-Engine](./screenshots/Screenshot from 2020-07-16 13-18-54.png)
 - Then select from a selection of 45 titles which articles information you want to see.
-  ![Articles-Options](screenshots/Screenshot from 2020-07-16 13-19-49.png)
+  ![Articles-Options](./screenshots/Screenshot from 2020-07-16 13-19-49.png)
 - You can see the article information and the link to go to that article.
-  ![Article-infomation](screenshots/Screenshot from 2020-07-16 13-20-10.png)
+  ![Article-infomation](./screenshots/Screenshot from 2020-07-16 13-20-10.png)
 
 ## Run tests
 
